@@ -1,0 +1,18 @@
+{
+	"name": "lsfbnitkv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://trngsto1.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "lskv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sec2"
+			}
+		}
+	}
+}
