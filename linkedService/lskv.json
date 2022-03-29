@@ -1,0 +1,10 @@
+{
+	"name": "lskv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv28mar.vault.azure.net/"
+		}
+	}
+}
